@@ -1,8 +1,0 @@
-id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-access_salary_scale,access_salary_scale,model_salary_scale,,1,1,1,1
-access_employee_job,access_employee_job,model_employee_job,,1,1,1,1
-access_salary_steps,access_salary_steps,model_salary_steps,,1,1,1,1
-access_general_ratio,access_general_ratio,model_general_ratio,,1,1,1,1
-access_salary_scale_wiz,access_salary_scale_wiz,model_salary_scale_wiz,,1,1,1,1
-access_salary_steps_placement,access_salary_steps_placement,model_salary_steps_placement,,1,1,1,1
-access_alary_scale_typeof_increase,access_alary_scale_typeof_increase,model_salary_scale_typeof_increase,,1,1,1,1
