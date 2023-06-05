@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="salary_scale_wiz_view_form" model="ir.ui.view">
+            <field name="name">salary.scale.wiz.view.form</field>
+            <field name="model">salary.scale.wiz</field>
+            <field name="arch" type="xml">
+                <form string="Salary Scale">
+                    <group>
+                        <group>
+                            <field name="general_ratio_id" domain="[('state','=','approved')]" options="{'no_create_edit': True, 'no_open':True,'no_create':True}"/>
+                        </group>
+                    </group>
+                    <footer>
+                        <button name="button_salary_scale_creation" string="Create" type="object" class="oe_highlight"/>
+                        or
+                        <button string="Cancel" class="oe_highlight" special="cancel"/>
+                    </footer>
+                </form>
+            </field>
+        </record>
+
+
+        <record id="salary_scale_wiz_action" model="ir.actions.act_window">
+            <field name="name">Salary Scale</field>
+            <field name="res_model">salary.scale.wiz</field>
+            <field name="view_mode">form</field>
+            <field name="target">new</field>
+        </record>
+
+    </data>
+</odoo>

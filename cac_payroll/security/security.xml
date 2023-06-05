@@ -1,0 +1,8 @@
+<odoo>
+	<data noupdate="0">
+        <!-- Access Group For Approve Button In General Ratio And Salary Scale -->
+        <record id="access_approve_salary_scale" model="res.groups">
+            <field name="name">Access To Approve Salary Scale</field>
+        </record>
+    </data>
+</odoo>
